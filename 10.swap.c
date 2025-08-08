@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main()
 {
-	int p,q;
-	scanf("%d %d",&p,&q);
-	p=p+q;
-	q=p-q;
-	p=p-q;
-	printf("%d%d",p,q);
+	int a,b;
+	scanf("%d %d",&a,&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("%d%d",a,b);
 }
 
